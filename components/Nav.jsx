@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 //Link (next js)
 import Link from "next/link";
 
@@ -23,11 +25,17 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                     href={link.path}
                     key={index}
                     className={`capitalize ${linkStyles}`}>
-                    {/* {link.path === path && (
+                    {link.path === path && (
+                        <motion.span 
+                        initial={{y: '-100%'}} 
+                        animate={{y: 0}} 
+                        transition={{type: 'tween'}} 
+                        layoutId="underline"
+                        className={`${underlineStyles}`} />
                       
 
                         
-                    )} */}
+                    )}
                     {link.name}
                 </Link>
             })}
@@ -35,4 +43,4 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
     );
 };
 
-export default Nav;
+export default Nav;          

@@ -4,7 +4,7 @@ import "./globals.css";
 //Components
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-//Theme Provide
+//Theme Provider
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 
