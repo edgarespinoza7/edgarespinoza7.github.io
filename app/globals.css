@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
 
   @layer base {
@@ -27,7 +27,7 @@
       --ring: 24.6 95% 53.1%;
       --radius: 0.5rem;
     }
-  
+
     .dark {
       --background: 20 14.3% 4.1%;
       --foreground: 60 9.1% 97.8%;
@@ -50,14 +50,23 @@
       --ring: 20.5 90.2% 48.2%;
     }
   }
-  
+
 }
- 
+
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.h1 {
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+}
+
+.subtitle {
+  @apply text-muted-foreground text-lg mb-8 font-light;
 }
