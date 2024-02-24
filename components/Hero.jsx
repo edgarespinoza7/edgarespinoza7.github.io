@@ -41,6 +41,7 @@ const Hero = () => {
                 <Download size={18} />
               </Button>
             </div>
+            <Socials />
           </div>
           <div className="hidden xl:flex relative">image</div>
         </div>
