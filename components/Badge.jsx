@@ -16,7 +16,7 @@ const Badge = ({
           <CountUp end={endCountNum} delay={1} duration={4}/>
           {endCountText}
         </div>
-        <div>{badgeText}</div>
+        <div className='max-w-[720px] leading-none text-[15px] font-medium text-black'>{badgeText}</div>
       </div>
     </div>
   )
