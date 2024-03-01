@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 // Import swiper react components
-import {Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // import swiper styles
 import 'swiper/css';
@@ -107,19 +107,20 @@ const Work = () => {
                 </div>
                 {/* Slider */}
                 <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
-                    <Swiper className="h-[480px]" slidesPerView={1} breakpoints={{640: {
-                        slidesPerView: 2
-                    } 
+                    <Swiper className="h-[480px]" slidesPerView={1} breakpoints={{
+                        640: {
+                            slidesPerView: 2
+                        }
                     }} spaceBetween={30} modules={[Pagination]} pagination={{ clickable: true }}>
-                    {/* Show only the first 4 projects for the slides */}
-                    {ProjectData.slice(0.4).map( (project, index) => {
-                        return (
-                            <SwiperSlide key={index}>
-                                <ProjectCard project={project}/>
-                            </SwiperSlide>
-                        );
-                    })}
-                </Swiper>
+                        {/* Show only the first 4 projects for the slides */}
+                        {ProjectData.slice(0, 4).map((project, index) => {
+                            return (
+                                <SwiperSlide key={index}>
+                                    <ProjectCard project={project} />
+                                </SwiperSlide>
+                            );
+                        })}
+                    </Swiper>
                 </div>
             </div>
         </section>
