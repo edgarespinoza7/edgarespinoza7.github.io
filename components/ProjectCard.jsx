@@ -9,8 +9,8 @@ const ProjectCard = ({ project }) => {
   const { category, image, name, description, link, github } = project;
 
   return (
-    <Card className="group overflow-hidden ">
-      <CardHeader className="p-0">
+    <Card className="group overflow-hidden">
+      <CardHeader className="p-0 m">
         {/* Image */}
         <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden">
           <Image className="absolute bottom-0 shadow-2xl" src={image} width={247} height={250} alt="" priority />
