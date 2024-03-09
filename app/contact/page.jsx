@@ -1,4 +1,7 @@
-import { MailIcon, HomeIcon, PhoneCall, PhoneCallIcon } from "lucide-react";
+import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
+// Components
+import Form from "@/components/Form";
+
 
 const Contact = () => {
   return (
@@ -36,11 +39,13 @@ const Contact = () => {
             </div>
             {/* Phone */}
             <div className="flex items-center gap-x-8">
-              <PhoneCallIcon size={18} className="text-primary" />
+              <PhoneCall size={18} className="text-primary" />
               <div>+44 123 546 7890</div>
             </div>
           </div>
-          <form>form</form>
+          <Form>
+
+          </Form>
         </div>
       </div>
     </section>
