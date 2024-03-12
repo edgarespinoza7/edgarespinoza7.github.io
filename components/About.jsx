@@ -269,7 +269,7 @@ const About = () => {
                           const { imgPath } = item;
                           return (
                             <div key={index}>
-                              <Image src={imgPath} width={48} height={48} alt="" priority/>
+                              <Image src={imgPath} width={48} height={48} alt="" priority />
                             </div>
                           )
                         })}
