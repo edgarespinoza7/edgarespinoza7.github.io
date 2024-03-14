@@ -12,7 +12,7 @@ const Footer = () => {
            {/* Socials */}
         <Socials
           containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4'
-          iconsStyles='text-primary dark:text-white/70 hover:text-white dark:hover:text-primary text-[20px] transition-all'
+          iconsStyles='text-foreground dark:text-white/70 hover:text-primary dark:hover:text-primary text-[24px] transition-all'
         />
         {/* Copyright */}
         <div className="text-muted-foreground">

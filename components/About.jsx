@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 import {
-  user2,
   MailIcon,
-  HomeIcon,
   PhoneCall,
   GraduationCap,
-  Calendar,
+  MapPin,
   Briefcase,
   User2,
+  BadgeCheck,
+  FolderCheck,
 } from 'lucide-react';
 
 const infoData = [
@@ -24,20 +24,21 @@ const infoData = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: 'youremail@email.com',
-  },
-  {
-    icon: <Calendar size={20} />,
-    text: 'Born on 30 Sep, 1982',
+    text: 'edgarespinoza7@gmail.com',
   },
   {
     icon: <GraduationCap size={20} />,
-    text: 'Master on Computer Science',
+    text: "B.S. in Business Administration Management",
   },
   {
-    icon: <HomeIcon size={20} />,
-    text: '321 Blue Avenue, NY, USA',
+    icon: <MapPin size={20} />,
+    text: 'Valencia, Spain',
   },
+  {
+    icon: <BadgeCheck size={20} />,
+    text: 'Eligible to work in the EU',
+  },
+  
 
 ];
 
@@ -138,7 +139,7 @@ const About = () => {
           {/* Image */}
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative" imgSrc="/about/developer.png" />
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative" imgSrc="/about/developer-2.png" />
           </div>
           {/* Tabs */}
           <div className="flex-1">
@@ -153,8 +154,9 @@ const About = () => {
                 {/* Personal Info */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 years</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I specialized in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p>
+                    <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2 animate-ping ease-in-out">+</span> Problem-Solving Mindset</h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I am passionate about exploring the intersection between design, technology, and business. <br/>
+                    I firmly believe that every line of code should serve a greater purpose.</p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -166,9 +168,9 @@ const About = () => {
                     </div>
                     {/* Languages */}
                     <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Language Skill</div>
+                      <div className="text-primary">Languages</div>
                       <div className="border-b border-border"></div>
-                      <div>Spanish, English, German, Russian</div>
+                      <div>Spanish, English & Russian. </div>
                     </div>
                   </div>
                 </TabsContent>
