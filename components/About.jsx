@@ -10,7 +10,6 @@ import {
   Briefcase,
   User2,
   BadgeCheck,
-  FolderCheck,
 } from 'lucide-react';
 
 const infoData = [
@@ -95,14 +94,26 @@ const skillData = [
         name: 'HTML, CSS',
       },
       {
-        name: 'Front-end Development',
+        name: 'UX/UI Design',
       },
       {
-        name: 'JavaScript, PHP',
+        name: 'JavaScript / TypeScript',
       },
       {
-        name: 'Back-end Development',
-      }
+        name: 'React',
+      },
+      {
+        name: 'Next.js',
+      },
+      {
+        name: 'Git',
+      },
+      {
+        name: 'Node / NPM',
+      },
+      {
+        name: 'APIs',
+      },
     ]
 
   },
@@ -113,13 +124,16 @@ const skillData = [
         imgPath: '/about/vscode.svg',
       },
       {
+        imgPath: '/about/google-chrome-logo.svg',
+      },
+      {
         imgPath: '/about/figma.svg',
       },
       {
-        imgPath: '/about/notion.svg',
+        imgPath: '/about/github-mark.svg',
       },
       {
-        imgPath: '/about/wordpress.svg',
+        imgPath: '/about/notion.svg',
       },
     ],
   },
@@ -155,7 +169,7 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2">+</span> Problem-Solving Mindset</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I'm a self-taught Front-end Developer passionate about crafting web experiences that seamlessly integrate <span className="text-primary font-bold">Design, Technology, and Business Acumen</span>. Every line of code I write serves a greater purpose, resulting in digital products that delight users while fulfilling business goals.</p>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I'm a self-taught Front-end Developer passionate about creating web experiences that seamlessly integrate <span className="text-primary font-bold dark:text-white">Design, Technology, and Business Acumen</span>. Every line of code I write serves a greater purpose, resulting in digital products that delight users while fulfilling business goals.</p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -256,7 +270,6 @@ const About = () => {
                               <div className="font-medium">{name}</div>
                             </div>
                           )
-
                         })}
                       </div>
                     </div>

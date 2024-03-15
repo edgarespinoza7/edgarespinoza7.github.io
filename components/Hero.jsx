@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Front-End Developer</div>
             <h1 className="h1 mb-4">Hello! I'm Edgar Espinoza</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-            I craft beautiful and functional web experiences by combining cutting-edge technologies with design thinking.
+            I craft beautiful and user-friendly web experiences by blending cutting-edge technology with design thinking.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
