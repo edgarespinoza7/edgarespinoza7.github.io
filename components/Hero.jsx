@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Front-End Developer</div>
-            <h1 className="h1 mb-4">Hello, my name is Edgar</h1>
+            <h1 className="h1 mb-4">Hello! I'm Edgar Espinoza</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
             I craft beautiful and functional web experiences by combining cutting-edge technologies with design thinking.
             </p>

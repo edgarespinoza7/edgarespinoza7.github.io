@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            I'd love to hear what's on your mind. Get in touch and let me know how I can help you!
             </p>
           </div>
           {/* illustration */}
@@ -30,17 +30,17 @@ const Contact = () => {
             {/* Mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>youremail@gmail.com</div>
+              <div>edgarespinoza7@gmail.com</div>
             </div>
             {/* Adress */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>8420 Pine Avenue, Meadoville MC 842</div>
+              <div>Valencia, Spain</div>
             </div>
             {/* Phone */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+44 123 546 7890</div>
+              <div>+34 613 52 3930</div>
             </div>
           </div>
           <Form>

@@ -20,7 +20,7 @@ const infoData = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: '+34 631 37 6567',
+    text: '+34 613 52 3930',
   },
   {
     icon: <MailIcon size={20} />,
@@ -47,19 +47,19 @@ const qualificationData = [
     title: 'education',
     data: [
       {
-        university: 'Example University',
-        qualification: 'Bachelor of Science',
-        years: '2015 - 2018',
+        university: 'Udemy',
+        qualification: 'The Complete 2024 Web Development Bootcamp',
+        years: '2024',
       },
       {
-        university: 'Another University',
-        qualification: 'Master of Arts',
+        university: 'Google',
+        qualification: 'Foundations of UX Design',
         years: '2019 - 2021',
       },
       {
-        university: 'Yet Another University',
-        qualification: 'Ph.D in Computer Science',
-        years: '2021 - 2025',
+        university: 'freeCodeCamp',
+        qualification: 'Responsive Web Design Certification',
+        years: '2020',
       },
     ]
   },
@@ -67,19 +67,19 @@ const qualificationData = [
     title: 'experience',
     data: [
       {
-        company: 'ABC Inc.',
-        role: 'Software Engineer',
-        years: '2018 - 2020',
+        company: 'Freelance',
+        role: 'Web Developer',
+        years: '2021 - Present',
       },
       {
-        company: 'XYZ Corporation',
-        role: 'Senior Developer',
-        years: '2020 - 2022',
+        company: 'Freelance',
+        role: 'Content Manager',
+        years: '2019 - 2021',
       },
       {
-        company: 'Tech Innovators',
-        role: 'Lead Developer',
-        years: '2022 - Present',
+        company: 'RIA Novosti',
+        role: 'Copyeditor',
+        years: '2015 - 2019',
       },
 
     ]
@@ -150,13 +150,12 @@ const About = () => {
                 <TabsTrigger className="w-[162px] xl:auto" value="skills">Skills</TabsTrigger>
               </TabsList>
               {/* Tabs Content */}
-              <div className="text-lg mt-12 xl:mt-8 text-center xl:text-left">
+              <div className="text-lg mt-12 xl:mt-8 xl:text-left">
                 {/* Personal Info */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2 animate-ping ease-in-out">+</span> Problem-Solving Mindset</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I am passionate about exploring the intersection between design, technology, and business. <br/>
-                    I firmly believe that every line of code should serve a greater purpose.</p>
+                    <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2">+</span> Problem-Solving Mindset</h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I'm a self-taught Front-end Developer passionate about crafting web experiences that seamlessly integrate <span className="text-primary font-bold">Design, Technology, and Business Acumen</span>. Every line of code I write serves a greater purpose, resulting in digital products that delight users while fulfilling business goals.</p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -177,7 +176,7 @@ const About = () => {
                 {/* Qualifications */}
                 <TabsContent value="qualifications">
                   <div>
-                    <h3 className="h3 mb-8">My Awesome Journey</h3>
+                    <h3 className="h3 mb-8">My <span className="line-through decoration-primary/50 decoration-8 decoration-solid">Atypical</span> Journey</h3>
                     {/* Experience and Education wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* Experience */}
