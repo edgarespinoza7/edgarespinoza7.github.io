@@ -4,10 +4,11 @@ import { Download, Send } from "lucide-react";
 
 import {
   RiBriefcase4Fill,
-  RiTeamFill,
   RiTodoFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
+
+import { PiCoffeeBold } from "react-icons/pi";
 
 //Components
 import DevImg from "./DevImg";
@@ -62,10 +63,10 @@ const Hero = () => {
             {/* Badge 3 */}
             <Badge 
             containerStyles='absolute top-[55%] -right-8'
-            icon={<RiTeamFill />} 
-            endCountNum={40} 
-            endCountText='+'
-            badgeText='Happy Clients'/>
+            icon={<PiCoffeeBold />} 
+            endCountNum={4} 
+            endCountText='k'
+            badgeText='Cups of Tea'/>
             
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/developer-1.png'/>

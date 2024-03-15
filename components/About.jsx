@@ -258,7 +258,7 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">What I Use Everyday</h3>
                     {/* Skills */}
-                    <div className="mb-16">
+                    <div className="mb-14">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skill List */}
@@ -283,7 +283,7 @@ const About = () => {
                           const { imgPath } = item;
                           return (
                             <div key={index}>
-                              <Image src={imgPath} width={48} height={48} alt="" priority />
+                              <Image src={imgPath} width={42} height={42} alt="" priority />
                             </div>
                           )
                         })}

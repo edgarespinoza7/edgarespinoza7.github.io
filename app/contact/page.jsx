@@ -1,4 +1,4 @@
-import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
+import { MailIcon, HomeIcon, PhoneCall, MapPin, MailPlus } from "lucide-react";
 // Components
 import Form from "@/components/Form";
 
@@ -29,12 +29,12 @@ const Contact = () => {
           <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
             {/* Mail */}
             <div className="flex items-center gap-x-8">
-              <MailIcon size={18} className="text-primary" />
+              <MailPlus size={18} className="text-primary" />
               <div>edgarespinoza7@gmail.com</div>
             </div>
             {/* Adress */}
             <div className="flex items-center gap-x-8">
-              <HomeIcon size={18} className="text-primary" />
+              <MapPin size={18} className="text-primary" />
               <div>Valencia, Spain</div>
             </div>
             {/* Phone */}

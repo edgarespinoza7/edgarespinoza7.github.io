@@ -1,21 +1,21 @@
-import {GanttChartSquare, Blocks, Gem} from "lucide-react";
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
+import { Blocks, LayoutDashboard, FileTerminal } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const servicesData = [
   {
-    icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
+    icon: <LayoutDashboard size={72} strokeWidth={0.8}/>,
     title: "Web Design",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    description: "I value simple content structure, clean design patterns, and careful interactions."
+  },
+  {
+    icon: <FileTerminal size={72} strokeWidth={0.8}/>,
+    title: "Web Development",
+    description: "I love to code websites from scratch, and enjoy bringing ideas to life in the browser."
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8}/>,
-    title: "Web Development",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
-  },
-  {
-    icon: <Gem size={72} strokeWidth={0.8}/>,
     title: "App Development",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    description: "I enjoy using the latest JavaScript frameworks and libraries to create dynamic web apps."
   },
 ]
 
