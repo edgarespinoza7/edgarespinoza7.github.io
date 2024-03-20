@@ -2,6 +2,9 @@ import DevImg from "./Devimg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
+
+
+
 import {
   MailIcon,
   PhoneCall,
@@ -112,7 +115,7 @@ const skillData = [
         name: 'Node / NPM',
       },
       {
-        name: 'APIs',
+        name: 'REST APIs',
       },
     ]
 

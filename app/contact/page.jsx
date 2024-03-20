@@ -1,9 +1,14 @@
+"use client"
+
+import React from 'react';
+
 import { MailIcon, HomeIcon, PhoneCall, MapPin, MailPlus } from "lucide-react";
 // Components
 import Form from "@/components/Form";
 
 
 const Contact = () => {
+
   return (
     <section>
       <div className="container mx-auto">
@@ -17,7 +22,7 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-            I'd love to hear what's on your mind. Get in touch and let me know how I can help you!
+              I'd love to hear what's on your mind. Get in touch and let me know how I can help you!
             </p>
           </div>
           {/* illustration */}
@@ -43,9 +48,7 @@ const Contact = () => {
               <div>+34 613 52 3930</div>
             </div>
           </div>
-          <Form>
-
-          </Form>
+          <Form />
         </div>
       </div>
     </section>
