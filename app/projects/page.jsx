@@ -5,77 +5,77 @@ import ProjectCard from "@/components/ProjectCard";
 
 const ProjectData = [
   {
-    image: '/work/3.png',
+    image: '/work/portfolio-website.png',
+    category: 'next js',
+    name: 'Portfolio Website',
+    description: 'A personal portfolio to showcase my work and skills as a Front-end Developer.',
+    link: '/',
+    github: 'https://github.com/edgarespinoza7/edgarespinoza7.github.io',
+  },
+  {
+    image: '/work/country-search-app-light.png',
+    category: 'next js',
+    name: 'Country Search App',
+    description: 'A REST API-powered web app that allows users to change the color theme.',
+    link: '/',
+    github: 'https://github.com/edgarespinoza7/country-search-app',
+  },
+  {
+    image: '/work/fun-fact-calculator.png',
     category: 'react js',
-    name: 'Nexa Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    name: 'Fun-facts Calculator',
+    description: 'An API-powered calculator that enables users to discover interesting facts about numbers.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/edgarespinoza7/fun-react-calculator',
   },
-  {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Solstice Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'next js',
-    name: 'Lumina Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'next js',
-    name: 'Evolve Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'next js',
-    name: 'Ignite Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'next js',
-    name: 'Envision Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'fullstack',
-    name: 'Serenity Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'fullstack',
-    name: 'Nova Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'fullstack',
-    name: 'Zenith Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
+  // {
+  //   // image: '/work/1.png',
+  //   category: 'fullstack',
+  //   // name: 'Evolve Website',
+  //   // description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/3.png',
+  //   category: 'next js',
+  //   name: 'Ignite Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/4.png',
+  //   category: 'next js',
+  //   name: 'Envision Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/1.png',
+  //   category: 'fullstack',
+  //   name: 'Serenity Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/3.png',
+  //   category: 'fullstack',
+  //   name: 'Nova Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/2.png',
+  //   category: 'fullstack',
+  //   name: 'Zenith Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
 ];
 
 // Remove caregory duplicates
@@ -97,7 +97,7 @@ const Projects = () => {
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">My Projects</h2>
         {/* Tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className='w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'>
+          <TabsList className='w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'>
             {categories.map((category, index) => {
               return (
                 <TabsTrigger

@@ -18,77 +18,77 @@ import ProjectCard from '@/components/ProjectCard';
 
 const ProjectData = [
   {
-    image: '/work/3.png',
-    category: 'react js',
-    name: 'Nexa Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Solstice Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
+    image: '/work/portfolio-website.png',
     category: 'next js',
-    name: 'Lumina Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    name: 'Portfolio Website',
+    description: 'A personal portfolio to showcase my work and skills as a Front-end Developer.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/edgarespinoza7/edgarespinoza7.github.io',
   },
   {
-    image: '/work/1.png',
+    image: '/work/country-search-app-light.png',
     category: 'next js',
-    name: 'Evolve Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    name: 'Country Search App',
+    description: 'A REST API-powered web app that allows users to change the color theme.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/edgarespinoza7/country-search-app',
   },
   {
-    image: '/work/3.png',
-    category: 'next js',
-    name: 'Ignite Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    image: '/work/fun-fact-calculator.png',
+    category: 'react',
+    name: 'Fun-facts Calculator',
+    description: 'An API-powered calculator that enables users to discover interesting facts about numbers.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/edgarespinoza7/fun-react-calculator',
   },
-  {
-    image: '/work/4.png',
-    category: 'next js',
-    name: 'Envision Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'fullstack',
-    name: 'Serenity Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'fullstack',
-    name: 'Nova Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'fullstack',
-    name: 'Zenith Website',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
+  // {
+  //   image: '/work/1.png',
+  //   category: 'next js',
+  //   name: 'Evolve Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/3.png',
+  //   category: 'next js',
+  //   name: 'Ignite Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/4.png',
+  //   category: 'next js',
+  //   name: 'Envision Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/1.png',
+  //   category: 'fullstack',
+  //   name: 'Serenity Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/3.png',
+  //   category: 'fullstack',
+  //   name: 'Nova Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
+  // {
+  //   image: '/work/2.png',
+  //   category: 'fullstack',
+  //   name: 'Zenith Website',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  //   link: '/',
+  //   github: '/',
+  // },
 ];
 
 
@@ -99,7 +99,7 @@ const Work = () => {
         {/* Text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <p className="subtitle mb-8">Here's a sample of my work, both professional and personal</p>
           <Link href='/projects'>
             <Button>All Projects</Button>
           </Link>

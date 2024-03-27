@@ -1,9 +1,6 @@
-import DevImg from "./Devimg";
+import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-
-
-
 
 import {
   MailIcon,
@@ -94,13 +91,19 @@ const skillData = [
     title: 'skills',
     data: [
       {
-        name: 'HTML, CSS',
+        name: 'HTML',
       },
       {
-        name: 'UX/UI Design',
+        name: 'CSS',
+      },
+      {
+        name: 'UX/UI Design Systems',
       },
       {
         name: 'JavaScript / TypeScript',
+      },
+        {
+        name: 'Node.js',
       },
       {
         name: 'React',
@@ -109,10 +112,13 @@ const skillData = [
         name: 'Next.js',
       },
       {
-        name: 'Git',
+        name: 'Tailwind',
       },
       {
-        name: 'Node / NPM',
+        name: 'NPM',
+      },
+      {
+        name: 'Git',
       },
       {
         name: 'REST APIs',
@@ -150,7 +156,7 @@ const About = () => {
 
   return (
     <section className="xl:h-[860px] pb-12 xl:py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-12">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About me</h2>
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
@@ -166,9 +172,13 @@ const About = () => {
                 <TabsTrigger className="w-[162px] xl:auto" value="qualifications">Qualifications</TabsTrigger>
                 <TabsTrigger className="w-[162px] xl:auto" value="skills">Skills</TabsTrigger>
               </TabsList>
+
               {/* Tabs Content */}
+
               <div className="text-lg mt-12 xl:mt-8 xl:text-left">
+
                 {/* Personal Info */}
+                
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2">+</span> Problem-Solving Mindset</h3>
@@ -259,10 +269,10 @@ const About = () => {
                 {/* Skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">What I Use Everyday</h3>
+                    <h3 className="h3 mb-4">Things I Know</h3>
                     {/* Skills */}
-                    <div className="mb-14">
-                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                    <div className="mb-10">
+                      {/* <h4 className="text-xl font-semibold mb-2">Technologies</h4> */}
                       <div className="border-b border-border mb-4"></div>
                       {/* Skill List */}
                       <div>
@@ -270,7 +280,7 @@ const About = () => {
                           const { name } = item;
                           return (
                             <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
-                              <div className="font-medium">{name}</div>
+                              <div className="text-lg text-muted-foreground mb-1">{name}</div>
                             </div>
                           )
                         })}
@@ -278,7 +288,7 @@ const About = () => {
                     </div>
                     {/* Tools */}
                     <div>
-                      <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                    <h3 className="h3 mb-4">Tools I Use</h3>
                       <div className="border-b border-border mb-4"></div>
                       {/* Tool List */}
                       <div className="flex gap-x-8 justify-center xl:justify-start">

@@ -16,7 +16,7 @@ const Footer = () => {
         />
         {/* Copyright */}
         <div className="text-muted-foreground">
-          Copyright &copy; Edgar Espinoza - {year}. All rights reserved.
+        Edgar Espinoza &copy; {year} - All rights reserved.
         </div>
       </div>
       </div>

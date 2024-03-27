@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Front-End Developer</div>
             <h1 className="h1 mb-4">Hello! I'm Edgar Espinoza</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-            I craft beautiful and user-friendly web experiences by blending cutting-edge technology with design thinking.
+              I craft beautiful, user-friendly web experiences by blending the latest technologies with UX design principles.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -47,29 +47,29 @@ const Hero = () => {
               iconsStyles='text-foreground text-[22px] hover:text-primary transition-all' />
           </div>
           <div className="hidden xl:flex relative">
-          {/* Badge 1 */}
-            <Badge 
-            containerStyles='absolute top-[24%] -left-[5rem]'
-            icon={<RiBriefcase4Fill />} 
-            endCountNum={3} 
-            badgeText='Years Of Experience'/>
+            {/* Badge 1 */}
+            <Badge
+              containerStyles='absolute top-[24%] -left-[5rem]'
+              icon={<RiBriefcase4Fill />}
+              endCountNum={3}
+              badgeText='Years Of Experience' />
             {/* Badge 2 */}
-            <Badge 
-            containerStyles='absolute top-[80%] -left-[1rem]'
-            icon={<RiTodoFill />} 
-            endCountNum={30} 
-            endCountText='+'
-            badgeText='Finished Projects'/>
+            <Badge
+              containerStyles='absolute top-[80%] -left-[1rem]'
+              icon={<RiTodoFill />}
+              endCountNum={30}
+              endCountText='+'
+              badgeText='Finished Projects' />
             {/* Badge 3 */}
-            <Badge 
-            containerStyles='absolute top-[55%] -right-8'
-            icon={<PiCoffeeBold />} 
-            endCountNum={4} 
-            endCountText='k'
-            badgeText='Cups of Tea'/>
-            
+            <Badge
+              containerStyles='absolute top-[55%] -right-8'
+              icon={<PiCoffeeBold />}
+              endCountNum={4}
+              endCountText='k'
+              badgeText='Cups of Coffee' />
+
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
-            <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/developer-1.png'/>
+            <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/developer-1.png' />
           </div>
         </div>
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
