@@ -6,6 +6,7 @@ import {
   RiGithubFill,
   RiFacebookFill,
   RiInstagramFill,
+  RiTwitterXFill,
 } from 'react-icons/ri';
 
 import Link from 'next/link';
@@ -25,10 +26,10 @@ const icons = [
     path: 'https://github.com/edgarespinoza7',
     name: <RiGithubFill />,
   },
-  // {
-  //   path: '/',
-  //   name: <RiFacebookFill />,
-  // },
+  {
+    path: 'https://twitter.com/edgrafo',
+    name: <RiTwitterXFill />,
+  },
   // {
   //   path: '/',
   //   name: <RiInstagramFill />,

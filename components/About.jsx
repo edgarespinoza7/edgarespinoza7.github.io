@@ -27,7 +27,7 @@ const infoData = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "B.S. in Business Administration Management",
+    text: "B.S. in Business Administration",
   },
   {
     icon: <MapPin size={20} />,
