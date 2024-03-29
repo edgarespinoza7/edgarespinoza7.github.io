@@ -196,7 +196,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Languages</div>
                       <div className="border-b border-border"></div>
-                      <div>Spanish & English. </div>
+                      <div>Spanish - English. </div>
                     </div>
                   </div>
                 </TabsContent>
