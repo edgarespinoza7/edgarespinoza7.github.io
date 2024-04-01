@@ -35,12 +35,15 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Button
+              <Link href='/Edgar Espinoza_cv.pdf' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
+                <Button
                 variant='secondary'
                 className='gap-x-2'>
                 Download CV
                 <Download size={18} />
               </Button>
+              </Link>
+              
             </div>
             <Socials
               containerStyles='flex gap-x-6 mx-auto xl:mx-0'
