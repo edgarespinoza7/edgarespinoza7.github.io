@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Front-End Developer</div>
             <h1 className="h1 mb-4">Hello! I'm Edgar Espinoza</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I craft beautiful, user-friendly web experiences by blending the latest technologies with UX design principles.
+              I craft beautiful, user-friendly websites and apps by blending the latest technologies with UX design principles.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -37,13 +37,13 @@ const Hero = () => {
               </Link>
               <Link href='/Edgar Espinoza_cv.pdf' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
                 <Button
-                variant='secondary'
-                className='gap-x-2'>
-                Download CV
-                <Download size={18} />
-              </Button>
+                  variant='secondary'
+                  className='gap-x-2'>
+                  Download CV
+                  <Download size={18} />
+                </Button>
               </Link>
-              
+
             </div>
             <Socials
               containerStyles='flex gap-x-6 mx-auto xl:mx-0'

@@ -1,5 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 //Components
 import Header from "@/components/Header";
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           defaultTheme='light'>
           <Header />
           {children}
+          <Analytics />
           <Footer />
         </ThemeProvider>
 

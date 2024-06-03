@@ -37,7 +37,7 @@ const infoData = [
     icon: <BadgeCheck size={20} />,
     text: 'Eligible to work in the EU',
   },
-  
+
 
 ];
 
@@ -97,12 +97,9 @@ const skillData = [
         name: 'CSS',
       },
       {
-        name: 'UX/UI Design Systems',
-      },
-      {
         name: 'JavaScript / TypeScript',
       },
-        {
+      {
         name: 'Node.js',
       },
       {
@@ -113,6 +110,9 @@ const skillData = [
       },
       {
         name: 'Tailwind',
+      },
+      {
+        name: 'Design Systems',
       },
       {
         name: 'NPM',
@@ -178,11 +178,11 @@ const About = () => {
               <div className="text-lg mt-12 xl:mt-8 xl:text-left">
 
                 {/* Personal Info */}
-                
+
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Endless Curiosity <span className="font-bold text-primary px-2">+</span> Problem-Solving Mindset</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I'm a self-taught Front-end Developer passionate about creating web experiences that delight users while fulfilling business goals.</p>
+                    <h3 className="h3 mb-4">Product Oriented Web Developer</h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I believe that every line of code should have a greater purpose: delivering maximum value to the end user while achieving business goals. </p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -288,7 +288,7 @@ const About = () => {
                     </div>
                     {/* Tools */}
                     <div>
-                    <h3 className="h3 mb-4">Tools I Use</h3>
+                      <h3 className="h3 mb-4">Tools I Use</h3>
                       <div className="border-b border-border mb-4"></div>
                       {/* Tool List */}
                       <div className="flex gap-x-8 justify-center xl:justify-start">
