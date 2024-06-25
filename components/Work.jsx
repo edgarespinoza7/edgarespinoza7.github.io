@@ -37,7 +37,7 @@ const ProjectData = [
     image: '/work/country-search-app-light.png',
     category: 'next js',
     name: 'Country Search App',
-    description: 'A REST API-powered web app built with Next.js 14 that allows users to search and filter results.',
+    description: 'A REST API-powered web app built with Next.js 14.',
     link: '/',
     github: 'https://github.com/edgarespinoza7/country-search-app',
   },
