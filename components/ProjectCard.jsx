@@ -16,10 +16,10 @@ const ProjectCard = ({ project }) => {
           <Image className="absolute bottom-0 shadow-2xl" src={image} width={247} height={250} alt="" priority />
           {/* Buttons Links*/}
           <div className="flex gap-x-4">
-            <Link href={link} className="bg-[#1F2937] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200">
+            <Link href={link} className="bg-[#1F2937] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" target="_blank">
               <Link2Icon className="text-white" />
             </Link>
-            <Link href={github} className="bg-[#1F2937] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200">
+            <Link href={github} className="bg-[#1F2937] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" target="_blank">
               <Github className="text-white" />
             </Link>
           </div>

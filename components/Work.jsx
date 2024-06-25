@@ -18,18 +18,26 @@ import ProjectCard from '@/components/ProjectCard';
 
 const ProjectData = [
   {
+    image: '/work/landing-page.png',
+    category: 'next js',
+    name: 'NextG',
+    description: 'A fully responsive landing page built with Next.js 14, Tailwind, and shadcn/ui.',
+    link: 'https://startup-landing-page-six.vercel.app/',
+    github: 'https://github.com/edgarespinoza7/startup-landing-page',
+  },
+  {
     image: '/work/portfolio-website.png',
     category: 'next js',
     name: 'Portfolio Website',
-    description: 'A personal portfolio to showcase my work and skills as a Front-end Developer.',
-    link: '/',
+    description: 'A fully responsive portfolio website built with Next.js 14, Tailwind, and Framer Motion.',
+    link: 'https://www.edgarespinoza.com/',
     github: 'https://github.com/edgarespinoza7/edgarespinoza7.github.io',
   },
   {
     image: '/work/country-search-app-light.png',
     category: 'next js',
     name: 'Country Search App',
-    description: 'A REST API-powered web app that allows users to change the color theme.',
+    description: 'A REST API-powered web app built with Next.js 14 that allows users to search and filter results.',
     link: '/',
     github: 'https://github.com/edgarespinoza7/country-search-app',
   },
