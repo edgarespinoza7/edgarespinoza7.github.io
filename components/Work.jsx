@@ -18,6 +18,14 @@ import ProjectCard from '@/components/ProjectCard';
 
 const ProjectData = [
   {
+    image: '/work/iphone-website.png',
+    category: 'react',
+    name: 'iPhone 15 Pro website',
+    description: "A clone of Apple's iPhone 15 Pro website built with React, Tailwind, GSAP, and Three.js.",
+    link: 'https://iphone-website-seven.vercel.app/',
+    github: 'https://github.com/edgarespinoza7/iphone-website',
+  },
+  {
     image: '/work/landing-page.png',
     category: 'next js',
     name: 'NextG',
