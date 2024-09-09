@@ -18,6 +18,14 @@ import ProjectCard from '@/components/ProjectCard';
 
 const ProjectData = [
   {
+    image: '/work/brainwave.png',
+    category: 'react',
+    name: 'Brainwave',
+    description: "A modern website, developed using React.js, Tailwind CSS and solid UI/UX principles.",
+    link: 'https://brainwave-landingpage-kappa.vercel.app/',
+    github: 'https://github.com/edgarespinoza7/brainwave-landingpage',
+  },
+  {
     image: '/work/iphone-website.png',
     category: 'react',
     name: 'iPhone 15 Pro website',
