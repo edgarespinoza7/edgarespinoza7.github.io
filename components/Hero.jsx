@@ -35,7 +35,7 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Link href='/Edgar Espinoza_cv.pdf' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
+              <Link href='/Edgar Espinoza - CV2025.docx' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
                 <Button
                   variant='secondary'
                   className='gap-x-2'>
