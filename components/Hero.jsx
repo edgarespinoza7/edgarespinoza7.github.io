@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Front-End Developer</div>
             <h1 className="h1 mb-4">Hello! I'm Edgar Espinoza</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I craft beautiful, user-friendly websites and apps by blending the latest technologies with UX design principles.
+              Front-End Developer specializing in React.js, Next.js, and JavaScript/TypeScript. Passionate about building user-friendly, data-driven applications that deliver results.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -35,7 +35,7 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Link href='/Edgar Espinoza - CV2025.docx' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
+              <Link href='/Edgar Espinoza - CV.docx' alt='Edgar Espinoza - CV' target="_blank" rel="noopener noreferrer">
                 <Button
                   variant='secondary'
                   className='gap-x-2'>
@@ -54,20 +54,20 @@ const Hero = () => {
             <Badge
               containerStyles='absolute top-[24%] -left-[5rem]'
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
+              endCountNum={4}
               badgeText='Years Of Experience' />
             {/* Badge 2 */}
             <Badge
               containerStyles='absolute top-[80%] -left-[1rem]'
               icon={<RiTodoFill />}
-              endCountNum={30}
+              endCountNum={20}
               endCountText='+'
               badgeText='Finished Projects' />
             {/* Badge 3 */}
             <Badge
               containerStyles='absolute top-[55%] -right-8'
               icon={<PiCoffeeBold />}
-              endCountNum={4}
+              endCountNum={2}
               endCountText='k'
               badgeText='Cups of Coffee' />
 

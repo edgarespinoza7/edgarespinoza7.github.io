@@ -1296,18 +1296,6 @@ video {
 .underline {
   text-decoration-line: underline;
 }
-.line-through {
-  text-decoration-line: line-through;
-}
-.decoration-primary\/50 {
-  text-decoration-color: hsl(var(--primary) / 0.5);
-}
-.decoration-solid {
-  text-decoration-style: solid;
-}
-.decoration-8 {
-  text-decoration-thickness: 8px;
-}
 .underline-offset-4 {
   text-underline-offset: 4px;
 }

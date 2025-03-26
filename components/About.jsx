@@ -46,6 +46,11 @@ const qualificationData = [
     title: 'education',
     data: [
       {
+        university: 'IBM',
+        qualification: 'Full-Stack JavaScript Developer',
+        years: '2025',
+      },
+      {
         university: 'Udemy',
         qualification: 'The Complete 2024 Web Development Bootcamp',
         years: '2024',
@@ -53,7 +58,7 @@ const qualificationData = [
       {
         university: 'Google',
         qualification: 'Foundations of UX Design',
-        years: '2019 - 2021',
+        years: '2021',
       },
       {
         university: 'freeCodeCamp',
@@ -66,14 +71,14 @@ const qualificationData = [
     title: 'experience',
     data: [
       {
-        company: 'Freelance',
+        company: 'Sunlight Language School',
         role: 'Web Developer',
-        years: '2021 - Present',
+        years: 'Jul 2024 - Feb 2025',
       },
       {
         company: 'Freelance',
-        role: 'Content Manager',
-        years: '2019 - 2021',
+        role: 'Web Developer',
+        years: 'Feb 2021 - Jul 2024',
       },
       {
         company: 'RIA Novosti',
@@ -181,8 +186,8 @@ const About = () => {
 
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Product Oriented Web Developer</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I believe that every line of code should have a greater purpose: delivering maximum value to the end user while achieving business goals. </p>
+                    <h3 className="h3 mb-4">Product-Oriented Developer</h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I write code with purpose—crafting solutions that maximize user value while driving business success.</p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -203,7 +208,7 @@ const About = () => {
                 {/* Qualifications */}
                 <TabsContent value="qualifications">
                   <div>
-                    <h3 className="h3 mb-8">My <span className="line-through decoration-primary/50 decoration-8 decoration-solid">Atypical</span> Journey</h3>
+                    <h3 className="h3 mb-8">My Journey</h3>
                     {/* Experience and Education wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* Experience */}
