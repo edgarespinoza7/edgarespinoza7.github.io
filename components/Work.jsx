@@ -18,6 +18,14 @@ import ProjectCard from '@/components/ProjectCard';
 
 const ProjectData = [
   {
+    image: '/work/bookstore-app.png',
+    category: 'fullstack',
+    name: 'Bookstore App',
+    description: "An E-commerce webapp developed using the MERN stack and Tailwind CSS.",
+    link: 'https://bookstore-app-frontend-delta.vercel.app/',
+    github: 'https://github.com/edgarespinoza7/bookstore-app-frontend',
+  },
+  {
     image: '/work/brainwave.png',
     category: 'react',
     name: 'Brainwave',
@@ -35,7 +43,7 @@ const ProjectData = [
   },
   {
     image: '/work/landing-page.png',
-    category: 'next js',
+    category: 'next.js',
     name: 'NextG',
     description: 'A fully responsive landing page built with Next.js 14, Tailwind, and shadcn/ui.',
     link: 'https://startup-landing-page-six.vercel.app/',
@@ -43,7 +51,7 @@ const ProjectData = [
   },
   {
     image: '/work/portfolio-website.png',
-    category: 'next js',
+    category: 'next.js',
     name: 'Portfolio Website',
     description: 'A fully responsive portfolio website built with Next.js 14, Tailwind, and Framer Motion.',
     link: 'https://www.edgarespinoza.com/',
@@ -51,7 +59,7 @@ const ProjectData = [
   },
   {
     image: '/work/country-search-app-light.png',
-    category: 'next js',
+    category: 'next.js',
     name: 'Country Search App',
     description: 'A REST API-powered web app built with Next.js 14.',
     link: '/',
@@ -65,54 +73,6 @@ const ProjectData = [
     link: '/',
     github: 'https://github.com/edgarespinoza7/fun-react-calculator',
   },
-  // {
-  //   image: '/work/1.png',
-  //   category: 'next js',
-  //   name: 'Evolve Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
-  // {
-  //   image: '/work/3.png',
-  //   category: 'next js',
-  //   name: 'Ignite Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
-  // {
-  //   image: '/work/4.png',
-  //   category: 'next js',
-  //   name: 'Envision Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
-  // {
-  //   image: '/work/1.png',
-  //   category: 'fullstack',
-  //   name: 'Serenity Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
-  // {
-  //   image: '/work/3.png',
-  //   category: 'fullstack',
-  //   name: 'Nova Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
-  // {
-  //   image: '/work/2.png',
-  //   category: 'fullstack',
-  //   name: 'Zenith Website',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   link: '/',
-  //   github: '/',
-  // },
 ];
 
 
