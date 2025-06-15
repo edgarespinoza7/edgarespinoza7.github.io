@@ -17,7 +17,7 @@ const ProjectData = [
     image: '/work/brainwave.png',
     category: 'react',
     name: 'Brainwave',
-    description: "A modern website, developed using React.js, Tailwind CSS and solid UI/UX principles.",
+    description: "A modern landing page, developed using React.js, Tailwind CSS and Framer Motion.",
     link: 'https://brainwave-landingpage-kappa.vercel.app/',
     github: 'https://github.com/edgarespinoza7/brainwave-landingpage',
   },
@@ -53,16 +53,6 @@ const ProjectData = [
     link: '/',
     github: 'https://github.com/edgarespinoza7/country-search-app',
   },
-  {
-    image: '/work/fun-fact-calculator.png',
-    category: 'react',
-    name: 'Fun-facts Calculator',
-    description: 'An API-powered calculator that enables users to discover interesting facts about numbers.',
-    link: '/',
-    github: 'https://github.com/edgarespinoza7/fun-react-calculator',
-  },
-
-
 ];
 
 // Remove caregory duplicates

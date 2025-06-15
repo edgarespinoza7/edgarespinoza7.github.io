@@ -1,21 +1,22 @@
-import { Blocks, LayoutDashboard, FileTerminal } from "lucide-react";
+import { Blocks, FileTerminal, DraftingCompass } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const servicesData = [
+
   {
-    icon: <LayoutDashboard size={72} strokeWidth={0.8}/>,
-    title: "Web Design",
-    description: "I value simple content structure, clean design patterns, and careful interactions."
-  },
-  {
-    icon: <FileTerminal size={72} strokeWidth={0.8}/>,
+    icon: <FileTerminal size={72} strokeWidth={1} />,
     title: "Web Development",
     description: "I love to code websites from scratch, and enjoy bringing ideas to life in the browser."
   },
   {
-    icon: <Blocks size={72} strokeWidth={0.8}/>,
+    icon: <Blocks size={72} strokeWidth={1} />,
     title: "App Development",
     description: "I enjoy using the latest JavaScript frameworks and libraries to create dynamic web apps."
+  },
+  {
+    icon: <DraftingCompass  size={72} strokeWidth={1} />,
+    title: "Web Design",
+    description: "I value simple content structure, clean design patterns, and careful interactions."
   },
 ]
 
@@ -28,7 +29,7 @@ const Services = () => {
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
           {servicesData.map((item, index) => {
 
-            const {icon, title, description} = item;
+            const { icon, title, description } = item;
 
             return (
               <Card className="w-full mmax-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative" key={index}>
